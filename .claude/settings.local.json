@@ -35,11 +35,32 @@
       "Read(//Applications/**)",
       "Bash(npx --yes playwright --version)",
       "Bash(mkdir -p /Users/benjso/Desktop/yoga/images *)",
-      "Bash(open -a \"Google Chrome\" /Users/benjso/Desktop/yoga/index.html)"
+      "Bash(open -a \"Google Chrome\" /Users/benjso/Desktop/yoga/index.html)",
+      "Bash(curl -s https://elaborate-tanuki-b743a3.netlify.app/ -o /private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/men-dynamic-source.html)",
+      "Bash(node --check js/men-dynamic.js)",
+      "Bash(python3 -c \"print\\('python ok'\\)\")",
+      "Bash(command -v npx)",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/desktop.png --window-size=1440,4400 http://localhost:8934/men-dynamic.html)",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/desktop2.png --window-size=1440,2600 --window-position=0,-2600 http://localhost:8934/men-dynamic.html)",
+      "Bash(sips -g pixelWidth -g pixelHeight desktop.png)",
+      "Bash(sips -c 1300 1440 -o mid.png desktop.png --cropOffset 2400 0)",
+      "Bash(sips --cropToHeightWidth 1300 1440 desktop.png --out mid.png)",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/full.png --window-size=1440,7200 http://localhost:8934/men-dynamic.html)",
+      "Bash(sips -g pixelHeight /private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/full.png)",
+      "Bash(pip3 list *)",
+      "Bash(python3 -m pip install --quiet --user pillow)",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/anchor1.png --window-size=1440,2000 \"http://localhost:8934/men-dynamic.html#early-access\")",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-benjso-Desktop-yoga/61f96bec-4a15-4214-93a3-08904feb8761/scratchpad/shots/mobile.png --window-size=390,3200 http://localhost:8934/men-dynamic.html)",
+      "Bash(python3 -c \"import websockets\")",
+      "Bash(python3 -c \"import websocket\")",
+      "Bash(node -e \"require\\('ws'\\)\")",
+      "Bash(node -e \"console.log\\(require.resolve\\('ws'\\)\\)\")",
+      "Bash(node check2.js)"
     ],
     "additionalDirectories": [
       "/Users/benjso/Desktop/yoga",
       "/tmp"
     ]
-  }
+  },
+  "skillOverrides": {}
 }
